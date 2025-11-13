@@ -18,7 +18,7 @@ struct ContentView: View {
                 TodayView()
                     .environmentObject(store)
                     .tabItem {
-                        Label("BHO", systemImage: "sun.max")
+                        Label("Today", systemImage: "sun.max")
                     }
 
                 CalendarView()
