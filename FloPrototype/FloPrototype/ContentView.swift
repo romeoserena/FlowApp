@@ -14,12 +14,11 @@ struct ContentView: View {
         ZStack {
             Color.pink
                 .ignoresSafeArea()
-
             TabView {
                 TodayView()
                     .environmentObject(store)
                     .tabItem {
-                        Label("Today", systemImage: "sun.max")
+                        Label("BHO", systemImage: "sun.max")
                     }
 
                 CalendarView()
